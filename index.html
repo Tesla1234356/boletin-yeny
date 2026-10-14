@@ -231,7 +231,7 @@
         radial-gradient(at 15% 15%, rgba(255, 255, 255, 0.65) 0%, transparent 50%),
         radial-gradient(at 85% 85%, rgba(232, 223, 209, 0.45) 0%, transparent 55%);
       color: #1C1714;
-      border: 1px solid #C8BMA6;
+      border: 1px solid #C8BAA6;
       box-shadow:
         inset 0 0 0 6px #FAF6EE,
         inset 0 0 0 7px rgba(28, 23, 20, 0.22);
@@ -1644,12 +1644,32 @@
               Boletín Histórico y Pedagógico en Ocho Folios
             </p>
 
-            <h1 class="font-display text-4xl sm:text-[44px] font-bold tracking-tight text-[#FAF6EE] leading-[1.04] mt-1">
-              Huellas de la
-              <span class="block italic font-normal text-[#E6C687] mt-0.5">
-                Infancia
-              </span>
-            </h1>
+            <!-- Bloque del Título Flanqueado por los Logos Institucionales (Directos, sin fondo circular y más grandes) -->
+            <div class="w-full max-w-[465px] flex items-center justify-between gap-2 sm:gap-3 my-1">
+              <!-- Logo Izquierda: Educación Inicial -->
+              <div class="flex items-center justify-center shrink-0">
+                <img src="Educacion inicial.png"
+                     alt="Especialidad de Educación Inicial"
+                     class="w-20 h-20 sm:w-[94px] sm:h-[94px] object-contain drop-shadow-[0_4px_14px_rgba(0,0,0,0.55)] transition-transform hover:scale-105" />
+              </div>
+
+              <!-- Título Central -->
+              <div class="text-center flex-1 px-1">
+                <h1 class="font-display text-3xl sm:text-[40px] font-bold tracking-tight text-[#FAF6EE] leading-[1.04]">
+                  Huellas de la
+                  <span class="block italic font-normal text-[#E6C687] mt-0.5">
+                    Infancia
+                  </span>
+                </h1>
+              </div>
+
+              <!-- Logo Derecha: Logo UNAP -->
+              <div class="flex items-center justify-center shrink-0">
+                <img src="Logo_UNAP.png"
+                     alt="Universidad Nacional del Altiplano - UNA Puno"
+                     class="w-20 h-20 sm:w-[94px] sm:h-[94px] object-contain drop-shadow-[0_4px_14px_rgba(0,0,0,0.55)] transition-transform hover:scale-105" />
+              </div>
+            </div>
 
             <div class="w-36 h-[1.5px] bg-gradient-to-r from-transparent via-[#D4AF6A] to-transparent my-3"></div>
 
